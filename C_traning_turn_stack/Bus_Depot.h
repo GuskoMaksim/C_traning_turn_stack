@@ -94,6 +94,7 @@ public:
             Now->next = NEW;
         }
     }
+    
     void add_bus_before(int before_bus, string new_second_name, string new_initial, int new_num_bus, int new_num_route)
     {
         if (First == NULL)
